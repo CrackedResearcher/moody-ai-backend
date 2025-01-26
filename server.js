@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const authRoutes = require("./routes/auth");
+const dashboardRoutes = require("./routes/dashboard");
 const connectDB = require("./config/db");
 const morgan = require('morgan');
 const logger = require('./utils/logger');
@@ -20,6 +21,7 @@ app.use(
 app.use(express.json());
 app.use(cookieParser());
 app.use("/api", authRoutes);
+app.use("/api", dashboardRoutes);
 
 app.use(morgan('combined', {
   stream: { write: (message) => logger.http(message.trim()) }

@@ -131,7 +131,7 @@ router.post("/refresh", async (req, res) => {
 });
 
 router.post("/logout", async (req, res) => {
-  const refreshToken = req.body;
+  const { refreshToken } = req.body; 
   if (!refreshToken) {
     return res.status(401).json({ message: "Refresh token not provided" });
   }

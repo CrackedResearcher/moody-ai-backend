@@ -215,3 +215,343 @@
 {"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:41:06.104Z"}
 {"level":"info","message":"cookies were generated in register-----","timestamp":"2025-01-26T13:41:32.007Z"}
 {"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T13:42:45.736Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T14:29:58.475Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T14:29:58.503Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T14:30:02.243Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T14:43:05.253Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T14:43:24.668Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T14:44:12.397Z"}
+{"level":"info","message":"cookies were generated in register-----","timestamp":"2025-01-26T14:45:18.525Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:47:45.645Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:47:50.198Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:47:53.404Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:47:53.417Z"}
+{"level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:47:53.420Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:47:58.013Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:47:58.026Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:48:00.333Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:48:00.346Z"}
+{"level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:48:00.349Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:48:02.034Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:48:04.418Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:48:04.431Z"}
+{"level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:48:04.433Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:48:05.665Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:48:05.678Z"}
+{"level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:48:05.680Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:48:34.549Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:49:54.964Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:49:54.977Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:49:54.979Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:50:36.075Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:12.926Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:14.901Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:52:14.916Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:25.620Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:28.322Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:36.631Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:52:36.645Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:39.555Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:41.789Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:46.077Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:52:46.091Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:52:46.093Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:47.909Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:52:47.923Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:52:56.265Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:52:56.278Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:52:56.281Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:04.734Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:53:04.746Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:07.052Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:09.883Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:11.921Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:53:11.934Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:53:11.936Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:20.622Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:28.007Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:33.208Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:53:33.221Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:53:33.223Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:40.811Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:53:40.823Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:53:40.826Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:42.870Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:53:42.882Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:53:42.885Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:49.742Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:57.789Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:53:59.236Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:02.088Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:54:02.101Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:54:02.104Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:04.168Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:54:04.181Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:54:04.183Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:05.942Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:09.735Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:31.292Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:53.599Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:55.482Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:54:57.675Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:03.047Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:13.190Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:15.159Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:33.905Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:55:33.918Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:55:33.920Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:37.460Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:55:37.473Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:44.766Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:55:44.780Z"}
+{"error":"querySrv ECONNREFUSED _mongodb._tcp.cluster0.ig2xr.mongodb.net","level":"error","message":"MongoDB connection unsuccessfull. Exiting the process:","timestamp":"2025-01-26T15:55:44.782Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:45.672Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:49.973Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:52.763Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:55:59.847Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:55:59.859Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:57:47.309Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:57:47.321Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T15:57:51.132Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:57:53.746Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:57:53.758Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:57:56.032Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:57:56.046Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:57:57.056Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:57:57.069Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T15:58:00.416Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:58:09.241Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:58:09.254Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T15:58:12.700Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:58:13.283Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:58:13.296Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T15:58:16.406Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:58:17.692Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:58:17.705Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T15:58:20.854Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T15:58:21.855Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T15:58:21.867Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T15:58:25.017Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:10.420Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:10.432Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:02:13.827Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:17.426Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:17.439Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:18.313Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:18.325Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:02:21.946Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:37.898Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:37.910Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:40.319Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:40.333Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:43.292Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:43.305Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:02:46.721Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:50.990Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:51.002Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:02:54.095Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:54.435Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:54.448Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:02:56.346Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:02:56.359Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:02:59.726Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:02.380Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:02.393Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:03:05.472Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:21.312Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:21.324Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:23.170Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:23.182Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:26.598Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:26.619Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:29.833Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:29.849Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:31.286Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:31.299Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:34.754Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:34.766Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:03:37.789Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:39.018Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:39.031Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:03:40.092Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:03:40.105Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:03:43.517Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:04:12.789Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:04:12.802Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:04:15.396Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:04:15.409Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:04:17.372Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:04:17.385Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:04:20.625Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:23.098Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:23.111Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:26.319Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:26.331Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:05:29.414Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:29.864Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:29.877Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:32.541Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:32.554Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:05:35.593Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:37.692Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:37.705Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:41.038Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:41.050Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:42.594Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:42.609Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:05:45.823Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:51.322Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:51.337Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:52.718Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:52.730Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:05:55.706Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:05:57.357Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:05:57.370Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:06:00.507Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:03.937Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:03.950Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:06:06.958Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:07.585Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:07.598Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:10.264Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:10.277Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:12.208Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:12.221Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:06:15.191Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:18.305Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:18.318Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:21.016Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:21.030Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:06:24.019Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:38.391Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:38.406Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:41.227Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:41.240Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:06:44.615Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:52.630Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:52.643Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:54.109Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:54.122Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:06:57.173Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:06:58.269Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:06:58.282Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:07:01.436Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:07:01.449Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:07:04.563Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:07:53.323Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:07:53.336Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:07:54.213Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:07:54.225Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:07:57.755Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:07:58.260Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:07:58.273Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:08:01.175Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:08:01.188Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:08:04.202Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:08:04.214Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:08:07.650Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:13:25.835Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:13:25.848Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:13:29.492Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:13:47.119Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:13:47.131Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:13:50.487Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:15:44.007Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:15:44.019Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:15:47.455Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:16:03.719Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:16:03.732Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:16:06.039Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:16:06.051Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:16:09.115Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:17:14.627Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:17:14.641Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:17:18.141Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:20:03.370Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:20:03.383Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:20:06.897Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T16:41:35.767Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T16:56:23.517Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T16:59:51.768Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T16:59:51.786Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T16:59:57.665Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:01:19.758Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:03:11.578Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:06:12.517Z"}
+{"level":"info","message":"cookies were generated in register-----","timestamp":"2025-01-26T17:12:26.134Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:14:08.266Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:16:14.729Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:18:01.019Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:18:18.020Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:18:33.074Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:28:35.801Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:29:06.312Z"}
+{"level":"info","message":"cookies were generated in register-----","timestamp":"2025-01-26T17:31:17.178Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T17:31:38.089Z"}
+{"level":"info","message":"cookies were generated in register-----","timestamp":"2025-01-26T17:34:51.428Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:51:03.808Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:51:03.911Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:51:09.274Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:51:09.361Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:52:13.245Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:52:13.342Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:53:45.174Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:53:45.289Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:53:55.273Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:53:55.390Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T17:55:17.734Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T17:55:17.748Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T17:55:21.812Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T17:56:56.109Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T17:56:56.121Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T17:56:59.616Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:57:03.803Z"}
+{"error":"logger is not defined","level":"error","message":"Error verifying token:","timestamp":"2025-01-26T17:57:03.888Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T17:58:03.271Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T17:58:03.282Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T17:58:06.368Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T17:58:21.484Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T17:58:21.496Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T17:58:24.595Z"}
+{"error":"logger is not defined","level":"info","message":"Error verifying token:","timestamp":"2025-01-26T17:58:27.123Z"}
+{"error":"logger is not defined","level":"info","message":"Error verifying token:","timestamp":"2025-01-26T17:58:27.343Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T17:58:42.400Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T17:58:42.411Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T17:58:43.713Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T17:58:43.724Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T17:58:46.601Z"}
+{"error":"logger is not defined","level":"info","message":"Error verifying token:","timestamp":"2025-01-26T17:58:49.216Z"}
+{"error":"logger is not defined","level":"info","message":"Error verifying token:","timestamp":"2025-01-26T17:58:49.274Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T18:00:25.242Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T18:00:25.252Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:00:27.863Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:00:27.924Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T18:00:28.526Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:00:35.948Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:00:36.037Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T18:01:44.880Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T18:01:44.891Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:01:48.037Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T18:01:48.087Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:01:48.104Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:03:23.013Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:03:23.118Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:03:37.528Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:03:37.629Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:04:12.544Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:04:12.633Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T18:04:53.050Z"}
+{"error":"jwt must be a string","level":"error","message":"verifyToken resulted in an error:","timestamp":"2025-01-26T18:04:53.052Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T18:05:11.906Z"}
+{"error":"jwt must be a string","level":"error","message":"verifyToken resulted in an error:","timestamp":"2025-01-26T18:05:11.907Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T18:05:43.779Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:05:44.217Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:05:44.316Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:06:25.006Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:06:25.120Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T18:06:53.164Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T18:06:53.175Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T18:06:56.579Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:06:58.019Z"}
+{"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:06:58.125Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T18:13:37.709Z"}
