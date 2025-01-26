@@ -31,6 +31,7 @@ router.post("/register", async (req, res) => {
     res
       .status(201)
       .json({ 
+        success: true,
         message: "User registration successful!",
         accessToken: accessTokenMoodyAI,
         refreshToken: refreshTokenMoodyAI
@@ -73,6 +74,7 @@ router.post("/login", async (req, res) => {
     res
       .status(200)
       .json({ 
+        success: true,
         message: "User login successful!",
         accessToken: accessTokenMoodyAI,
         refreshToken: refreshTokenMoodyAI

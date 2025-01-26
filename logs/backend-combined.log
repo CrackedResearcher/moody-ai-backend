@@ -190,3 +190,28 @@
 {"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:52:38.567Z"}
 {"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:52:38.579Z"}
 {"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:52:41.652Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:57:58.817Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:57:58.830Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:58:02.616Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:58:23.749Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:58:23.762Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:58:27.094Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:58:30.698Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:58:30.711Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:58:34.158Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T12:46:27.077Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T12:46:27.094Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T12:46:31.192Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T12:46:45.077Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T13:36:34.803Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T13:36:34.822Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T13:36:38.837Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:36:50.594Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:37:18.744Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:38:59.521Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:39:10.202Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:39:49.003Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:40:57.562Z"}
+{"level":"info","message":"refresh logic was triggered-----","timestamp":"2025-01-26T13:41:06.104Z"}
+{"level":"info","message":"cookies were generated in register-----","timestamp":"2025-01-26T13:41:32.007Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T13:42:45.736Z"}
