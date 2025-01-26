@@ -27,23 +27,26 @@ router.post("/register", async (req, res) => {
 
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
 
-    await user.save();
+    const isProduction = process.env.NODE_ENV === "production";
+    const cookieOptions = {
+      httpOnly: true,
+      secure: isProduction,
+      sameSite: isProduction ? "none" : "lax",
+      maxAge: 15 * 60 * 1000,
+      domain: isProduction ? ".onrender.com" : undefined,
+      path: "/",
+    };
 
     res
-      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, {
-        httpOnly: true,
-        maxAge: 15 * 60 * 1000,
-        secure: process.env.NODE_ENV === "production", 
-        sameSite: "lax", 
-      })
+      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, cookieOptions)
       .cookie("refreshTokenMoodyAI", refreshTokenMoodyAI, {
-        httpOnly: true,
-        maxAge: 7 * 24 * 60 * 60 * 1000,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
+        ...cookieOptions,
+        maxAge: 7 * 24 * 60 * 60 * 1000, 
       })
       .status(201)
       .json({ message: "User registration was successfull!" });
+
+      await user.save();
 
   } catch (error) {
     logger.info("error furing register ", error);
@@ -55,7 +58,7 @@ router.post("/login", async (req, res) => {
   const { email, password } = req.body;
   try {
     const user = await User.findOne({ email });
-    logger.info("user data returned is this from mongodb: ", user);
+
     if (!user) {
       return res.status(400).json({ message: "Invalid Credentials" });
     }
@@ -72,26 +75,30 @@ router.post("/login", async (req, res) => {
     const accessTokenMoodyAI = generateAccessToken(user._id);
     const refreshTokenMoodyAI = generateRefreshToken(user._id);
 
-    logger.info("accessTokenMoodyAI: ", accessTokenMoodyAI);
-    logger.info("refreshTokenMoodyAI: ", refreshTokenMoodyAI);
 
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
-    await user.save();
+
+    const isProduction = process.env.NODE_ENV === "production";
+    const cookieOptions = {
+      httpOnly: true,
+      secure: isProduction,
+      sameSite: isProduction ? "none" : "lax",
+      maxAge: 15 * 60 * 1000,
+      domain: isProduction ? ".onrender.com" : undefined,
+      path: "/",
+    };
+
     res
-      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, {
-        httpOnly: true,
-        maxAge: 15 * 60 * 1000,
-        secure: process.env.NODE_ENV === "production", // Use secure cookies in production
-        sameSite: "lax", // Lax allows cookies to be sent on navigation within the same site
-      })
+      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, cookieOptions)
       .cookie("refreshTokenMoodyAI", refreshTokenMoodyAI, {
-        httpOnly: true,
+        ...cookieOptions,
         maxAge: 7 * 24 * 60 * 60 * 1000,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
       })
       .status(200)
       .json({ message: "Logged in successfully" });
+
+      await user.save();
+
   } catch (error) {
     logger.info("error furing login ", error);
     res.status(500).json({ error: error.message });
