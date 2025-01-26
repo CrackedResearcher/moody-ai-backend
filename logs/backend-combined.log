@@ -168,3 +168,25 @@
 {"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T07:30:46.567Z"}
 {"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T07:30:46.580Z"}
 {"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T07:30:50.432Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:24:01.002Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:24:01.020Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:24:04.879Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:28:27.707Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:28:27.720Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:28:31.319Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:28:34.444Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:28:34.457Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:28:37.558Z"}
+{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODM3NjcsImV4cCI6MTczNzg4NTU2N30.P1v8AsOvfb9ovBuXuUP3hWe-0cD-jF98casEpOPu6-0","level":"info","message":"cookies were generated in register-----","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODM3NjcsImV4cCI6MTczODQ4ODU2N30.6X0vPCq2xO3c2FDf9xNH9wGF7J-fSrmrfn2H2npA0Dc","timestamp":"2025-01-26T09:29:27.851Z"}
+{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODM3OTksImV4cCI6MTczNzg4NTU5OX0.sNMMgwWUkMIY1sf1UHXgLdXNDbQAkkk5Dp3XHASvaKk","level":"info","message":"cookies were generated in login-----","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODM3OTksImV4cCI6MTczODQ4ODU5OX0.AgJ_hoO3ouR9tqRf-x4hl5zxBGU2G7vEz7IeHfpZzA8","timestamp":"2025-01-26T09:29:59.771Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:49:18.258Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:49:18.277Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:49:22.258Z"}
+{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODQ5NzQsImV4cCI6MTczNzg4Njc3NH0.8gLWw1vv5ue526QPAgqmGXHncIHn-570x7UotHiF8bM","level":"info","message":"cookies were generated in login-----","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODQ5NzQsImV4cCI6MTczODQ4OTc3NH0.pE3evH5wWPELiIDaWnmZdaQQpXLunehrIrciLbZNji4","timestamp":"2025-01-26T09:49:34.754Z"}
+{"accessToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODUwMjYsImV4cCI6MTczNzg4NjgyNn0.GZXPPGN6nkPFkJu0hchSw8pMftAmkuWxhwEjs5uALfg","level":"info","message":"cookies were generated in login-----","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Nzk2MDA3NzBlMjQwZGMxZWY2YmJiNmEiLCJpYXQiOjE3Mzc4ODUwMjYsImV4cCI6MTczODQ4OTgyNn0.F7mDUBQ1Jbjp0Vxz0f2914EQsFDCh50m2dnY1VU02h0","timestamp":"2025-01-26T09:50:26.563Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:52:28.792Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:52:28.804Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:52:32.308Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-01-26T09:52:38.567Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-01-26T09:52:38.579Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-01-26T09:52:41.652Z"}

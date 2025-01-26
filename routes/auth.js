@@ -35,10 +35,7 @@ router.post("/register", async (req, res) => {
         accessToken: accessTokenMoodyAI,
         refreshToken: refreshTokenMoodyAI
        });
-      logger.info("cookies were generated in register-----", {
-        accessToken: accessTokenMoodyAI,
-        refreshToken: refreshTokenMoodyAI
-      });
+      logger.info("cookies were generated in register-----");
 
 
 
@@ -81,10 +78,7 @@ router.post("/login", async (req, res) => {
         refreshToken: refreshTokenMoodyAI
        });
 
-      logger.info("cookies were generated in login-----", {
-        accessToken: accessTokenMoodyAI,
-        refreshToken: refreshTokenMoodyAI
-      });
+      logger.info("cookies were generated in login-----");
 
 
   } catch (error) {
