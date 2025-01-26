@@ -28,6 +28,7 @@ router.post("/register", async (req, res) => {
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
 
     const isProduction = process.env.NODE_ENV === "production";
+    logger.info("isProduction", isProduction);
     const cookieOptions = {
       httpOnly: true,
       secure: isProduction,
@@ -45,6 +46,7 @@ router.post("/register", async (req, res) => {
       })
       .status(201)
       .json({ message: "User registration was successfull!" });
+      logger.info("cookies were generated in register-----", accessTokenMoodyAI, refreshTokenMoodyAI);
 
       await user.save();
 
@@ -79,6 +81,7 @@ router.post("/login", async (req, res) => {
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
 
     const isProduction = process.env.NODE_ENV === "production";
+    logger.info("isProduction", isProduction);
     const cookieOptions = {
       httpOnly: true,
       secure: isProduction,
@@ -97,6 +100,7 @@ router.post("/login", async (req, res) => {
       .status(200)
       .json({ message: "Logged in successfully" });
 
+      logger.info("cookies were generated in login-----", accessTokenMoodyAI, refreshTokenMoodyAI);
       await user.save();
 
   } catch (error) {
