@@ -28,25 +28,13 @@ router.post("/register", async (req, res) => {
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
     await user.save();
 
-    const isProduction = process.env.NODE_ENV === "production";
-    logger.info("isProduction", {isProduction: isProduction});
-    const cookieOptions = {
-      httpOnly: true,
-      secure: isProduction,
-      sameSite: isProduction ? "none" : "lax",
-      maxAge: 15 * 60 * 1000,
-      domain: isProduction ? "moody-ai-backend.onrender.com" : undefined,
-      path: "/",
-    };
-
     res
-      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, cookieOptions)
-      .cookie("refreshTokenMoodyAI", refreshTokenMoodyAI, {
-        ...cookieOptions,
-        maxAge: 7 * 24 * 60 * 60 * 1000, 
-      })
       .status(201)
-      .json({ message: "User registration was successfull!" });
+      .json({ 
+        message: "User registration successful!",
+        accessToken: accessTokenMoodyAI,
+        refreshToken: refreshTokenMoodyAI
+       });
       logger.info("cookies were generated in register-----", {
         accessToken: accessTokenMoodyAI,
         refreshToken: refreshTokenMoodyAI
@@ -85,25 +73,13 @@ router.post("/login", async (req, res) => {
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
     await user.save();
 
-    const isProduction = process.env.NODE_ENV === "production";
-    logger.info("isProduction", {isProduction: isProduction});
-    const cookieOptions = {
-      httpOnly: true,
-      secure: isProduction,
-      sameSite: isProduction ? "none" : "lax",
-      maxAge: 15 * 60 * 1000,
-      domain: isProduction ? "moody-ai-backend.onrender.com" : undefined,
-      path: "/",
-    };
-
     res
-      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, cookieOptions)
-      .cookie("refreshTokenMoodyAI", refreshTokenMoodyAI, {
-        ...cookieOptions,
-        maxAge: 7 * 24 * 60 * 60 * 1000,
-      })
       .status(200)
-      .json({ message: "Logged in successfully" });
+      .json({ 
+        message: "User login successful!",
+        accessToken: accessTokenMoodyAI,
+        refreshToken: refreshTokenMoodyAI
+       });
 
       logger.info("cookies were generated in login-----", {
         accessToken: accessTokenMoodyAI,
@@ -118,8 +94,8 @@ router.post("/login", async (req, res) => {
 });
 
 router.post("/refresh", async (req, res) => {
-  logger.info("refresgn logic was triggered-----")
-  const refreshToken = req.cookies.refreshTokenMoodyAI;
+  logger.info("refresh logic was triggered-----")
+  const refreshToken = req.body;
   if (!refreshToken) {
     return res.status(401).json({ message: "Refresh token not provided" });
   }
@@ -147,29 +123,19 @@ router.post("/refresh", async (req, res) => {
     await user.save();
 
     res
-      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
-        maxAge: 15 * 60 * 1000,
-        path: "/",
-      })
-      .cookie("refreshTokenMoodyAI", refreshTokenMoodyAI, {
-        httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
-        sameSite: "lax",
-        maxAge: 7 * 24 * 60 * 60 * 1000,
-        path: "/",
-      })
       .status(200)
-      .json({ message: "Tokens refreshed" });
+      .json({ 
+        message: "Tokens refreshed",
+        accessToken: accessTokenMoodyAI,
+        refreshToken: refreshTokenMoodyAI
+      });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 });
 
 router.post("/logout", async (req, res) => {
-  const refreshToken = req.cookies.refreshTokenMoodyAI;
+  const refreshToken = req.body;
   if (!refreshToken) {
     return res.status(401).json({ message: "Refresh token not provided" });
   }
