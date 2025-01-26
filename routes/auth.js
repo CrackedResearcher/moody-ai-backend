@@ -6,6 +6,7 @@ const {
   generateAccessToken,
   verifyToken,
 } = require("../utils/jwt");
+const logger = require('../utils/logger');
 
 const router = express.Router();
 
@@ -81,6 +82,7 @@ router.post("/login", async (req, res) => {
 });
 
 router.post("/refresh", async (req, res) => {
+  console.log("refresgn logic was triggered-----")
   const refreshToken = req.cookies.refreshTokenMoodyAI;
   if (!refreshToken) {
     return res.status(401).json({ message: "Refresh token not provided" });
@@ -111,14 +113,20 @@ router.post("/refresh", async (req, res) => {
     res
       .cookie("accessTokenMoodyAI", accessTokenMoodyAI, {
         httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "lax",
         maxAge: 15 * 60 * 1000,
+        path: "/",
       })
       .cookie("refreshTokenMoodyAI", refreshTokenMoodyAI, {
         httpOnly: true,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "lax",
         maxAge: 7 * 24 * 60 * 60 * 1000,
+        path: "/",
       })
       .status(200)
-      .json({ message: "Token refreshed successfully" });
+      .json({ message: "Tokens refreshed" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -146,6 +154,26 @@ router.post("/logout", async (req, res) => {
       .json({ message: "Logged out successfully" });
   } catch (error) {
     res.status(500).json({ error: error.message });
+  }
+});
+
+router.post("/verify-token", async (req, res) => {
+  const accessToken = req.body.token;
+
+  if (!accessToken) {
+    return res.status(400).json({ message: "Token is required" });
+  }
+
+  try {
+    const payload = verifyToken(accessToken, process.env.JWT_SECRET);
+
+    if (!payload) {
+      return res.status(401).json({ message: "Invalid or expired access token" });
+    }
+
+    return res.status(200).json({ message: "Token is valid" });
+  } catch (error) {
+    return res.status(401).json({ message: "Invalid or expired access token" });
   }
 });
 
