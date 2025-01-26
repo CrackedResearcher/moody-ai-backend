@@ -20,16 +20,33 @@ router.post("/register", async (req, res) => {
         .json({ message: "User already exists, please login" });
     }
 
-    console.log("the existing user value comes as: ", existingUser);
-
-    console.log("call came ---->>>");
-
     const user = new User({ name, email, password });
+
+    const accessTokenMoodyAI = generateAccessToken(user._id);
+    const refreshTokenMoodyAI = generateRefreshToken(user._id);
+
+    user.refreshTokens.push({ token: refreshTokenMoodyAI });
+
     await user.save();
-    console.log("savedthe usr success");
-    res.status(201).json({ message: "User registration was successfull" });
+
+    res
+      .cookie("accessTokenMoodyAI", accessTokenMoodyAI, {
+        httpOnly: true,
+        maxAge: 15 * 60 * 1000,
+        secure: process.env.NODE_ENV === "production", 
+        sameSite: "lax", 
+      })
+      .cookie("refreshTokenMoodyAI", refreshTokenMoodyAI, {
+        httpOnly: true,
+        maxAge: 7 * 24 * 60 * 60 * 1000,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "lax",
+      })
+      .status(201)
+      .json({ message: "User registration was successfull!" });
+
   } catch (error) {
-    console.log("error furing register ", error);
+    logger.info("error furing register ", error);
     res.status(500).json({ message: "Internal Server Error" });
   }
 });
@@ -38,7 +55,7 @@ router.post("/login", async (req, res) => {
   const { email, password } = req.body;
   try {
     const user = await User.findOne({ email });
-    console.log("user data returned is this from mongodb: ", user);
+    logger.info("user data returned is this from mongodb: ", user);
     if (!user) {
       return res.status(400).json({ message: "Invalid Credentials" });
     }
@@ -55,8 +72,8 @@ router.post("/login", async (req, res) => {
     const accessTokenMoodyAI = generateAccessToken(user._id);
     const refreshTokenMoodyAI = generateRefreshToken(user._id);
 
-    console.log("accessTokenMoodyAI: ", accessTokenMoodyAI);
-    console.log("refreshTokenMoodyAI: ", refreshTokenMoodyAI);
+    logger.info("accessTokenMoodyAI: ", accessTokenMoodyAI);
+    logger.info("refreshTokenMoodyAI: ", refreshTokenMoodyAI);
 
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
     await user.save();
@@ -76,13 +93,13 @@ router.post("/login", async (req, res) => {
       .status(200)
       .json({ message: "Logged in successfully" });
   } catch (error) {
-    console.log("error furing login ", error);
+    logger.info("error furing login ", error);
     res.status(500).json({ error: error.message });
   }
 });
 
 router.post("/refresh", async (req, res) => {
-  console.log("refresgn logic was triggered-----")
+  logger.info("refresgn logic was triggered-----")
   const refreshToken = req.cookies.refreshTokenMoodyAI;
   if (!refreshToken) {
     return res.status(401).json({ message: "Refresh token not provided" });
