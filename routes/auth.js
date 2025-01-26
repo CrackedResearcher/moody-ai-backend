@@ -26,6 +26,7 @@ router.post("/register", async (req, res) => {
     const refreshTokenMoodyAI = generateRefreshToken(user._id);
 
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
+    await user.save();
 
     const isProduction = process.env.NODE_ENV === "production";
     logger.info("isProduction", {isProduction: isProduction});
@@ -51,7 +52,7 @@ router.post("/register", async (req, res) => {
         refreshToken: refreshTokenMoodyAI
       });
 
-      await user.save();
+
 
   } catch (error) {
     logger.info("error furing register ", error);
@@ -82,6 +83,7 @@ router.post("/login", async (req, res) => {
 
 
     user.refreshTokens.push({ token: refreshTokenMoodyAI });
+    await user.save();
 
     const isProduction = process.env.NODE_ENV === "production";
     logger.info("isProduction", {isProduction: isProduction});
@@ -107,7 +109,7 @@ router.post("/login", async (req, res) => {
         accessToken: accessTokenMoodyAI,
         refreshToken: refreshTokenMoodyAI
       });
-      await user.save();
+
 
   } catch (error) {
     logger.info("error furing login ", error);

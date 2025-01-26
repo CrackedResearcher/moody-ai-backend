@@ -13,7 +13,7 @@ const app = express();
 const cors = require("cors");
 app.use(
     cors({
-      origin: ["http://localhost:3000", "https://moody-ai.onrender.com"], // allowed origins
+      origin: ["http://localhost:3000", "https://moody-ai.onrender.com/"], // allowed origins
       credentials: true, 
     })
   );
