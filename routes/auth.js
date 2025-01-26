@@ -35,7 +35,7 @@ router.post("/register", async (req, res) => {
       secure: isProduction,
       sameSite: isProduction ? "none" : "lax",
       maxAge: 15 * 60 * 1000,
-      domain: isProduction ? "moody-ai.onrender.com" : undefined,
+      domain: isProduction ? "moody-ai-backend.onrender.com" : undefined,
       path: "/",
     };
 
@@ -92,7 +92,7 @@ router.post("/login", async (req, res) => {
       secure: isProduction,
       sameSite: isProduction ? "none" : "lax",
       maxAge: 15 * 60 * 1000,
-      domain: isProduction ? "moody-ai.onrender.com" : undefined,
+      domain: isProduction ? "moody-ai-backend.onrender.com" : undefined,
       path: "/",
     };
 
