@@ -13,7 +13,7 @@ const verifyToken = (token, secret) => {
     try {
         return jwt.verify(token, secret);
     } catch (error) {
-        logger.error("verifyToken resulted in an error, check this:", {error: error.message});
+        logger.error("verifyToken resulted in error, check this:", {error: error.message});
         return null;
     }
 }
