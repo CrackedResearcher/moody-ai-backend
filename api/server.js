@@ -38,7 +38,11 @@ try {
   process.exit(1);
 }
 
-
+app.get("/hey", (req, res)=> {
+  res.status(200).json({ message: "success" })
+})
 app.listen(port, ()=>{
     logger.info("teh server start running with the command node server.js on port: ", port)
 })
+
+module.exports = app;

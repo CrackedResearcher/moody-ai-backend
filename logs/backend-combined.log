@@ -555,3 +555,9 @@
 {"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:06:58.019Z"}
 {"error":"jwt malformed","level":"error","message":"decodeJwt resulted in an error:","timestamp":"2025-01-26T18:06:58.125Z"}
 {"level":"info","message":"cookies were generated in login-----","timestamp":"2025-01-26T18:13:37.709Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-06T15:15:52.723Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-02-06T15:15:52.736Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-06T15:16:04.792Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-06T15:21:49.805Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-02-06T15:21:49.816Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-06T15:21:55.536Z"}
