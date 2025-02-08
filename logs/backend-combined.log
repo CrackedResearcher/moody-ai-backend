@@ -561,3 +561,15 @@
 {"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-06T15:21:49.805Z"}
 {"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-02-06T15:21:49.816Z"}
 {"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-06T15:21:55.536Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-08T16:08:52.970Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-02-08T16:08:52.982Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-08T16:08:58.297Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-08T16:09:20.949Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","timestamp":"2025-02-08T16:09:20.960Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-08T16:09:26.264Z"}
+{"level":"info","message":"cookies were generated in register-----","timestamp":"2025-02-08T16:12:56.783Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-02-08T16:13:37.623Z"}
+{"level":"info","message":"cookies were generated in register-----","timestamp":"2025-02-08T16:19:19.546Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-02-08T16:19:43.564Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-02-08T16:54:11.589Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-02-08T17:18:13.494Z"}

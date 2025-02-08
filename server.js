@@ -1,11 +1,11 @@
 require("dotenv").config();
 const express = require("express");
 const cookieParser = require("cookie-parser");
-const authRoutes = require("../routes/auth");
-const dashboardRoutes = require("../routes/dashboard");
-const connectDB = require("../config/db");
+const authRoutes = require("./routes/auth");
+const dashboardRoutes = require("./routes/dashboard");
+const connectDB = require("./config/db");
 const morgan = require('morgan');
-const logger = require('../utils/logger');
+const logger = require('./utils/logger');
 
 
 const port = process.env.PORT || 4000;
