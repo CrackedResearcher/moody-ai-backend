@@ -2,5 +2,5 @@
     "watch": ["server.js", "routes/**/*", "utils/**/*", "models/**/*", "config/**/*", "middlewares/**/*"],
     "ext": "js,json",
     "ignore": ["node_modules"],
-    "exec": "node api/server.js"
+    "exec": "node server.js"
 }
