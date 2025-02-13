@@ -47,7 +47,7 @@ const updateStreak = async (req, res, next) => {
 
     next(); 
   } catch (error) {
-    logger.error("Error updating streak: ", { error });
+    logger.error("Error updating streak: ", { error: error });
     return res.status(500).json({
       message: "Failed to update streak",
       success: false,

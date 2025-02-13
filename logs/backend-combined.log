@@ -1198,3 +1198,6 @@
 {"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:05:12.172Z"}
 {"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:05:15.681Z"}
 {"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:05:15.694Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:06:18.766Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:06:18.796Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T18:06:33.593Z"}
