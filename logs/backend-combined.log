@@ -1027,3 +1027,174 @@
 {"allMoods":[{"__v":0,"_id":"67ae2ae43393f2dcb748075f","activities":["Social","Meditation","Reading"],"createdAt":"2025-02-13T17:24:52.394Z","moodEmotions":"Anxious","moodScore":7,"streaks":0,"timestamp":"2025-02-13T17:24:52.388Z","updatedAt":"2025-02-13T17:24:52.394Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ae2a993393f2dcb748072b","activities":["Family","Creative","Outdoors"],"createdAt":"2025-02-13T17:23:37.029Z","moodEmotions":"Excited","moodScore":9,"streaks":0,"timestamp":"2025-02-13T17:23:37.027Z","updatedAt":"2025-02-13T17:23:37.029Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ae1f96932888b4f188323b","activities":["Family","Work"],"createdAt":"2025-02-13T16:36:38.774Z","moodEmotions":"Stressed","moodScore":9,"streaks":0,"timestamp":"2025-02-13T16:36:38.772Z","updatedAt":"2025-02-13T16:36:38.774Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ae0de8382b18851bca8419","activities":["Meditation","Reading"],"createdAt":"2025-02-13T15:21:13.001Z","moodEmotions":"Sad","moodScore":8,"streaks":0,"timestamp":"2025-02-13T15:21:12.992Z","updatedAt":"2025-02-13T15:21:13.001Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ace2823f9406bd5a0742d2","activities":["Reading"],"createdAt":"2025-02-12T18:03:46.330Z","moodEmotions":"Stressed","moodScore":5,"streaks":0,"timestamp":"2025-02-12T18:03:46.329Z","updatedAt":"2025-02-12T18:03:46.330Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ace24d3f9406bd5a0742ac","activities":["Social","Entertainment","Meditation"],"createdAt":"2025-02-12T18:02:53.990Z","moodEmotions":"Excited","moodScore":8,"streaks":0,"timestamp":"2025-02-12T18:02:53.985Z","updatedAt":"2025-02-12T18:02:53.990Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ace2113f9406bd5a074286","activities":["Work","Creative"],"createdAt":"2025-02-12T18:01:53.821Z","moodEmotions":"Calm","moodScore":9,"streaks":0,"timestamp":"2025-02-12T18:01:53.819Z","updatedAt":"2025-02-12T18:01:53.821Z","user":"67a78406e9117e92b499c12f"}],"level":"info","message":"all the moods for the user is this: ","timestamp":"2025-02-13T17:28:19.438Z"}
 {"latestMood":{"__v":0,"_id":"67ae2ae43393f2dcb748075f","activities":["Social","Meditation","Reading"],"createdAt":"2025-02-13T17:24:52.394Z","moodEmotions":"Anxious","moodScore":7,"streaks":0,"timestamp":"2025-02-13T17:24:52.388Z","updatedAt":"2025-02-13T17:24:52.394Z","user":"67a78406e9117e92b499c12f"},"level":"info","message":"the latest mood fetched is this; ","timestamp":"2025-02-13T17:28:25.522Z"}
 {"allMoods":[{"__v":0,"_id":"67ae2ae43393f2dcb748075f","activities":["Social","Meditation","Reading"],"createdAt":"2025-02-13T17:24:52.394Z","moodEmotions":"Anxious","moodScore":7,"streaks":0,"timestamp":"2025-02-13T17:24:52.388Z","updatedAt":"2025-02-13T17:24:52.394Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ae2a993393f2dcb748072b","activities":["Family","Creative","Outdoors"],"createdAt":"2025-02-13T17:23:37.029Z","moodEmotions":"Excited","moodScore":9,"streaks":0,"timestamp":"2025-02-13T17:23:37.027Z","updatedAt":"2025-02-13T17:23:37.029Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ae1f96932888b4f188323b","activities":["Family","Work"],"createdAt":"2025-02-13T16:36:38.774Z","moodEmotions":"Stressed","moodScore":9,"streaks":0,"timestamp":"2025-02-13T16:36:38.772Z","updatedAt":"2025-02-13T16:36:38.774Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ae0de8382b18851bca8419","activities":["Meditation","Reading"],"createdAt":"2025-02-13T15:21:13.001Z","moodEmotions":"Sad","moodScore":8,"streaks":0,"timestamp":"2025-02-13T15:21:12.992Z","updatedAt":"2025-02-13T15:21:13.001Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ace2823f9406bd5a0742d2","activities":["Reading"],"createdAt":"2025-02-12T18:03:46.330Z","moodEmotions":"Stressed","moodScore":5,"streaks":0,"timestamp":"2025-02-12T18:03:46.329Z","updatedAt":"2025-02-12T18:03:46.330Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ace24d3f9406bd5a0742ac","activities":["Social","Entertainment","Meditation"],"createdAt":"2025-02-12T18:02:53.990Z","moodEmotions":"Excited","moodScore":8,"streaks":0,"timestamp":"2025-02-12T18:02:53.985Z","updatedAt":"2025-02-12T18:02:53.990Z","user":"67a78406e9117e92b499c12f"},{"__v":0,"_id":"67ace2113f9406bd5a074286","activities":["Work","Creative"],"createdAt":"2025-02-12T18:01:53.821Z","moodEmotions":"Calm","moodScore":9,"streaks":0,"timestamp":"2025-02-12T18:01:53.819Z","updatedAt":"2025-02-12T18:01:53.821Z","user":"67a78406e9117e92b499c12f"}],"level":"info","message":"all the moods for the user is this: ","timestamp":"2025-02-13T17:28:27.143Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:29:53.445Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:29:53.459Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:30:08.666Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:37:57.206Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:37:57.220Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:38:13.975Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:03.696Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:03.718Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:11.938Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:11.953Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:13.739Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:13.750Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:20.614Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:20.625Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:27.724Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:27.766Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:29.960Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:29.984Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:33.249Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:33.262Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:38.671Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:38.708Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:43:48.320Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:43:48.356Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:44:01.509Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:09.563Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:09.576Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:16.914Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:16.957Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:29.401Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:29.421Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:30.435Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:30.456Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:37.157Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:37.210Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:38.853Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:38.885Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:46.192Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:46.226Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:57.317Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:57.356Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:44:59.209Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:44:59.232Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:09.766Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:09.777Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:13.590Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:13.603Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:17.155Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:17.188Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:19.401Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:19.416Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:20.748Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:20.761Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:23.592Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:23.604Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:27.448Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:27.498Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:29.347Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:29.367Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:32.752Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:32.764Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:33.968Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:33.980Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:45:46.829Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:49.390Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:49.405Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:45:58.164Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:45:58.200Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:46:01.113Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:46:01.124Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:46:05.149Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:46:05.205Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:46:13.261Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:46:13.272Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:46:29.342Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:46:29.355Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:46:31.196Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:46:31.208Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:46:49.902Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:47:23.615Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:47:23.638Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:47:48.055Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:47:48.096Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:47:54.161Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:47:54.175Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:48:00.982Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:48:00.996Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:48:02.857Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:48:02.870Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:48:19.891Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:48:19.903Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:48:27.970Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:48:28.002Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:48:29.605Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:48:29.624Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:48:32.575Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:48:32.586Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:48:54.479Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:50:37.135Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:50:37.167Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:50:48.419Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:50:48.448Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:51:01.304Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:51:07.956Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:51:07.989Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:51:12.306Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:51:12.317Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:51:17.314Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:51:17.353Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:51:19.263Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:51:19.280Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:51:21.844Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:51:21.855Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:51:24.613Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:51:24.645Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:51:37.185Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:52:15.605Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:52:15.683Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:52:31.916Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:54:10.223Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:54:10.235Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:54:25.785Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:54:25.821Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:54:39.111Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:54:39.141Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:54:54.529Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:55:10.496Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:55:10.519Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:55:13.548Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:55:13.561Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:55:17.048Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:55:17.110Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:55:21.245Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:55:21.256Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:55:34.416Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:55:59.503Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:55:59.523Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:56:00.982Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:56:00.999Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:56:03.655Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:56:03.666Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:56:19.526Z"}
+{"level":"info","message":"cookies were generated in login-----","timestamp":"2025-02-13T17:56:28.384Z"}
+{"error":{},"level":"error","message":"Error fetching mood data:","timestamp":"2025-02-13T17:56:35.015Z"}
+{"error":{},"level":"error","message":"Error fetching mood data:","timestamp":"2025-02-13T17:56:38.172Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:57:04.716Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:57:04.727Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:57:30.860Z"}
+{"error":{},"level":"error","message":"Error fetching mood data:","timestamp":"2025-02-13T17:57:40.246Z"}
+{"error":{},"level":"error","message":"Error fetching mood data:","timestamp":"2025-02-13T17:57:44.926Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:58:09.798Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:58:09.827Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T17:58:11.347Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T17:58:11.358Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T17:58:28.850Z"}
+{"error":{},"level":"error","message":"Error fetching mood data:","timestamp":"2025-02-13T17:58:39.332Z"}
+{"error":{},"level":"error","message":"Error fetching mood data:","timestamp":"2025-02-13T17:58:44.488Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:01:18.398Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:01:18.409Z"}
+{"level":"info","message":"MongoDB connected successfully...","timestamp":"2025-02-13T18:01:42.924Z"}
+{"level":"info","message":"New streak created for user 67a78406e9117e92b499c12f","timestamp":"2025-02-13T18:02:50.071Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:05:02.467Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:05:02.483Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:05:05.447Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:05:05.458Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:05:09.501Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:05:09.552Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:05:12.159Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:05:12.172Z"}
+{"level":"info","message":"MongoDB connection init...","timestamp":"2025-02-13T18:05:15.681Z"}
+{"level":"info","message":"teh server start running with the command node server.js on port: ","port_num":"4000","timestamp":"2025-02-13T18:05:15.694Z"}

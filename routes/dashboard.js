@@ -1,8 +1,10 @@
 const express = require("express");
 const User = require("../models/User");
 const Mood = require("../models/Mood");
+const Streaks = require("../models/Streaks");
 const logger = require("../utils/logger");
 const { verifyToken } = require("../middlewares/auth");
+const { updateStreak } = require("../middlewares/updateStreak");
 
 const router = express.Router();
 
@@ -35,7 +37,7 @@ router.get("/getUserDetails", verifyToken, async (req, res) => {
   }
 });
 
-router.post("/dailyMood", verifyToken, async (req, res) => {
+router.post("/dailyMood", verifyToken, updateStreak, async (req, res) => {
   try {
     const { emotion, moodScore, activities } = req.body;
 
@@ -63,67 +65,41 @@ router.post("/dailyMood", verifyToken, async (req, res) => {
 });
 
 router.get("/getDailyMoodData", verifyToken, async (req, res) => {
-  try {
-    const latestMood = await Mood.findOne({
-      user: req.userId,
-    }).sort({
-      timestamp: -1,
-    });
+    try {
+      const latestMood = await Mood.findOne({ user: req.userId }).sort({ timestamp: -1 });
+      const allMoods = await Mood.find({ user: req.userId }).sort({ timestamp: -1 });
+  
+      const uniqueDates = [...new Set(allMoods.map(mood => 
+        new Date(mood.timestamp).setHours(0, 0, 0, 0)
+      ))];
+  
 
-    logger.info("the latest mood fetched is this; ", {latestMood: latestMood})
-
-    const allMoods = await Mood.find({ user: req.userId }).sort({
-      timestamp: -1,
-    });
-
-    logger.info("all the moods for the user is this: ", {allMoods: allMoods})
-    let currentStreak = 0;
-    let lastDate = null;
-
-    const isConsecutiveDay = (date1, date2) => {
-      const day1 = new Date(date1).setHours(0, 0, 0, 0);
-      const day2 = new Date(date2).setHours(0, 0, 0, 0);
-      const diffTime = Math.abs(day1 - day2);
-      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-      return diffDays === 1;
-    };
-
-    for (let i = 0; i < allMoods.length; i++) {
-      const currentDate = new Date(allMoods[i].timestamp);
-
-      if (i === 0) {
-        currentStreak = 1;
-        lastDate = currentDate;
-      } else if (isConsecutiveDay(lastDate, currentDate)) {
-        currentStreak++;
-        lastDate = currentDate;
-      } else {
-        break;
-      }
+      const userStreak = await Streaks.findOne({ user: req.userId });
+      const currentStreak = userStreak ? userStreak.currentStreak : 0;
+  
+      return res.status(200).json({
+        success: true,
+        data: {
+          lastEntry: latestMood ? latestMood.timestamp : null,
+          latestMood: latestMood
+            ? {
+                emotion: latestMood.moodEmotions,
+                score: latestMood.moodScore,
+                activities: latestMood.activities,
+              }
+            : null,
+          currentStreak,
+          totalEntries: uniqueDates.length, 
+        },
+      });
+    } catch (error) {
+        console.log("error: ", error)
+      logger.error("Error fetching mood data:", { error: error });
+      return res.status(500).json({
+        message: "Failed to fetch mood data",
+        success: false,
+      });
     }
-
-    return res.status(200).json({
-      success: true,
-      data: {
-        lastEntry: latestMood ? latestMood.timestamp : null,
-        latestMood: latestMood
-          ? {
-              emotion: latestMood.moodEmotions,
-              score: latestMood.moodScore,
-              activities: latestMood.activities,
-            }
-          : null,
-        currentStreak,
-        totalEntries: allMoods.length,
-      },
-    });
-  } catch (error) {
-    logger.info("Error fetching mood data:", {error: error});
-    return res.status(500).json({
-      message: "Failed to fetch mood data",
-      success: false,
-    });
-  }
-});
+  });
 
 module.exports = router;
