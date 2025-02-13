@@ -43,5 +43,5 @@ app.get("/hey", (req, res)=> {
 })
 
 app.listen(port, ()=>{
-    logger.info("teh server start running with the command node server.js on port: ", port)
+    logger.info("teh server start running with the command node server.js on port: ", {port_num: port})
 })
